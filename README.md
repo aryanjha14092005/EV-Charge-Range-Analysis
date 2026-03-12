@@ -2,7 +2,7 @@
 
 ## 🚀 Live Project
 Access the live application here:  
-https://electric-car-analytics.onrender.com/
+https://electric-vehicle-charge-and-range-cnc5.onrender.com/
 
 ---
 
