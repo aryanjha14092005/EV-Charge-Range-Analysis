@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: electric-car-analytics
+    env: python
+    plan: free
+    buildCommand: pip install -r ecarstart/requirements.txt
+    startCommand: cd ecarstart && gunicorn -w 4 -b 0.0.0.0:$PORT app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
+      - key: FLASK_ENV
+        value: production
